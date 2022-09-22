@@ -1,27 +1,78 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+  <ion-toolbar color="azul">
+    <ion-title> Filmes </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Filmes</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <ion-item routerLink="como-treinar-seu-dragao">
+  <ion-item routerLink="/como-treinar-seu-dragao">
     <ion-thumbnail slot="start">
       <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/spZbO7Ss6U9W5zSHjtH6FvXvCF7.jpg">
     </ion-thumbnail>
-    <ion-label class="ion-text-wrap">
-      <ion-text color="rosa">
-        <strong>Encanto</strong>
-      </ion-text>
-    </ion-label>
-      <br>
+    <ion-card-content>
+      <ion-label>
+        <h1 class="ion-text-wrap">Como treinar o seu dragão</h1>
+        <br />
+        <ion-button fill="outline" slot="end" color="azul">ver mais</ion-button>
+      </ion-label>
+    </ion-card-content>
+  </ion-item>
+
+  <ion-item routerLink="/encanto">
+    <ion-thumbnail slot="start">
+      <img src="https://www.themoviedb.org/t/p/original/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg">
+    </ion-thumbnail>
+    <ion-card-content>
+      <ion-label>
+        <h1 class="ion-text-wrap">Encanto</h1>
+        <br />
+        <ion-button fill="outline" slot="end" color="rosa">ver mais</ion-button>
+      </ion-label>
+    </ion-card-content>
+  </ion-item>
+
+  <ion-item routerLink="/arremessando-alto">
+    <ion-thumbnail slot="start">
+      <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/25aPHMlZNP5F3fgxUo4XB7xUVz7.jpg">
+    </ion-thumbnail>
+    <ion-card-content>
+      <ion-label>
+        <h1 class="ion-text-wrap">Arremessando alto</h1>
+        <br />
+        <ion-button fill="outline" slot="end" color="vermelho">ver mais</ion-button>
+      </ion-label>
+    </ion-card-content>
+  </ion-item>
+
+  <ion-item routerLink="/coach-carter-treino-para-a-vida">
+    <ion-thumbnail slot="start">
+      <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/5cC54gTj4BPMEA6BANSK3rLmc7Y.jpg">
+    </ion-thumbnail>
+    <ion-card-content>
+      <ion-label>
+        <h1 class="ion-text-wrap">Coach Carter: Treino para a Vida</h1>
+        <br />
+        <ion-button fill="outline" slot="end" color="amarelo">ver mais</ion-button>
+      </ion-label>
+    </ion-card-content>
+  </ion-item>
+
+  <ion-item routerLink="/a-barraca-do-beijo">
+    <ion-thumbnail slot="start">
+      <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/8TbFTREtgpTOMpxQ5ZJjiZIlVS1.jpg">
+    </ion-thumbnail>
+    <ion-card-content>
+      <ion-label>
+        <h1 class="ion-text-wrap">A Barraca do Beijo</h1>
+        <br />
+        <ion-button fill="outline" slot="end" color="magenta">ver mais</ion-button>
+      </ion-label>
+    </ion-card-content>
   </ion-item>
 </ion-content>
